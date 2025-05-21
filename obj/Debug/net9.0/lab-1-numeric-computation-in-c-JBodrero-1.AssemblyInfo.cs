@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lab-1-numeric-computation-in-c-JBodrero-1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e496a866e2b32d58c60c461734b79f701b31d2b1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c1776d1a96b6309de116cd99f138a567cb4a95b")]
 [assembly: System.Reflection.AssemblyProductAttribute("lab-1-numeric-computation-in-c-JBodrero-1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lab-1-numeric-computation-in-c-JBodrero-1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
