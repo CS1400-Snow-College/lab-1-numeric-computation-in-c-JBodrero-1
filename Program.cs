@@ -10,28 +10,30 @@ decimal max = decimal.MaxValue;
 Console.WriteLine($"The range of the decimal type is {min} to {max}");
 double a = 1.0;
 double b = 3.0;
-Console.WriteLine(a / b);
+//double a_div_b = a / b;
+Console.WriteLine($"Using double int arithmetic, {a}/{b} = {a/b}");
 
 decimal c = 1.0M;
 decimal d = 3.0M;
-Console.WriteLine(c / d);
-//  without the "m" in the declaratino/initialization, it throws an errror
+Console.WriteLine($"Using decimal int arithmetic, {c}/{d} = {c/d}");
+//  without the "m" in the declaration/initialization, it throws an errror
 // decimal p = 1.0;
 // decimal q = 3.0;
 //Console.WriteLine(p / q);
 
 double pi = Math.PI;
-Console.WriteLine(Math.PI);
+//Console.WriteLine(Math.PI);
 
 Console.WriteLine($"Pi = {pi}");
 
-//Challenge  Find the area of a circle of given radius.
+//Challenge  Find the area of a circle of determined radius.
 double area = pi * (2.50*2.50);
-Console.WriteLine($"The area of a circle of radius {2.50} is {area} square units.");
+Console.WriteLine($"The area of a circle of radius {2.50} units is {area} square units.");
 
+//Challenge  Find the area of a circle of given radius. 
 Console.Write("Enter the radius of your circle:  ");
 string radius_in = Console.ReadLine();
 double radius = Convert.ToDouble(radius_in);
 double area_from_input = pi * Math.Pow(radius, 2);
-Console.WriteLine($"The area of a circle with radius {radius} is {area_from_input} square units.");
+Console.WriteLine($"The area of a circle with radius {radius} units is {area_from_input} square units.");
 
