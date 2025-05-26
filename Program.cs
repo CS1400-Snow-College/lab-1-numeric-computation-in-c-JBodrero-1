@@ -29,5 +29,9 @@ Console.WriteLine($"Pi = {pi}");
 double area = pi * (2.50*2.50);
 Console.WriteLine($"The area of a circle of radius {2.50} is {area} square units.");
 
-//Console.WriteLine("Enter the radius of your circle:");
-//rad = Console.ReadLine();
+Console.Write("Enter the radius of your circle:  ");
+string radius_in = Console.ReadLine();
+double radius = Convert.ToDouble(radius_in);
+double area_from_input = pi * Math.Pow(radius, 2);
+Console.WriteLine($"The area of a circle with radius {radius} is {area_from_input} square units.");
+
